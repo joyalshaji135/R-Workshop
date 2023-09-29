@@ -1,31 +1,30 @@
+# Clear the Environment
+
+rm(list = ls())
 
 
-x<- 25 #25 is assign to a x
-cat(x)
+# Operation in R 
 
-#sequence of the numbers
-#cat function is a string literals printing
-#print function is to list of array
+# Basic Operation : 1) Arithmetic Operation 2) Relational Operation 3) Logical Operation 
+                  # 4) Assignment Operation 
 
-y<-seq(10)
-print(y)
+# 1) Arithmetic Operations
 
-z<-seq(2,10,2)
-print(z)
+# case 1 : +
 
-#floating point numbers are representation
+number1 <- c(1:3)
+number2 <- c(4:6)
+print(number1)
+print(number2)
 
-dec<-round(40.57)
-print(dec)
+sum <- number1+number2
+print(sum)
 
-chr<-"red"
-mode(chr)
-typeof(chr)
+# case 2 : -
 
-#complex numbers
+var1 <- c(11:15)
+var2 <- c(16:20)
+print(var1)
+print(var2)
 
-comp<-2+4i
-print(comp)
-cat("The data type of complex_number is ",class(comp),"\n\n") 
-
-
+print(var1-var2)
