@@ -1,0 +1,1 @@
+#scan function and readline function
