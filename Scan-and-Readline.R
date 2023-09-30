@@ -6,6 +6,8 @@ rm(list = ls())
 
 mylist <- scan()
 
+mylist <- as.character(mylist)
+
 print(mylist)
 cat(mylist)
 
