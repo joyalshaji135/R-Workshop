@@ -72,10 +72,13 @@ if ( choice == 1 ) {
 
 #case 3: 
 
+mylist <- c("Hardwork","Success","Dedication","Failer")
 
-
-
-
-
-
-
+if ( "success" %in% mylist ) {
+      cat("Succes Key Word is not Found")
+}else if ( "Success" %in% mylist ) {
+      cat("Success Keyword is Founded")
+}else
+{
+      cat("Seaching Key Word is not Found")
+}
