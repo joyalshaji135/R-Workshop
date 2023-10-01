@@ -16,4 +16,6 @@ min(var_1)
 
 max(var_1)
 
+
+
 summary(var_1)
