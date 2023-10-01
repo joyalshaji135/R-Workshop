@@ -64,3 +64,21 @@ print(cos_value)
 
 print(tan_value)
 
+# g) log(values or var_name) ==> normal logarithm 
+
+log_value <- log(variable_4)
+
+print(log_value)
+
+# h) log10(values or var_name)  ==> Common logarithm 
+
+log10_value <- log10(variable_4)
+
+print(log10_value)
+
+# i) exp(values or var_name)  ==> Exponent
+
+exp_value <- exp(variable_4)
+
+print(exp_value)
+
