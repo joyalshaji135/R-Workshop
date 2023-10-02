@@ -99,3 +99,49 @@ cat("Convert numeric to integer :",convert_normal_integer,"\n","Class Datatype :
 cat("Convert numeric vector into integer vector :",convert_integer_vector,"\n","Class Datatype :",class(convert_integer_vector),"\n")
 
 
+# c) Character Vector
+
+# case 1
+
+normal_character <- "Hello R Program"
+
+character_vector <- c("Jobin","Joyal","Zen","Yashak")
+
+print(character_vector)
+
+class(character_vector)
+
+print(normal_character)
+
+class(normal_character)
+
+# case 2 : Convert to any Data to Character
+
+char_vect <- c(5,8,9,6) # numeric vectors
+
+convert_numeric_vector <- as.character(char_vect)
+
+print(char_vect) # it is a numeric vector
+
+class(char_vect)
+
+print(convert_numeric_vector) # it is a character vector
+
+class(convert_numeric_vector)
+
+# Logical Vector
+
+num1 <- 10
+
+num2 <- 20
+
+num3 <- 4
+
+
+normal_logical <- TRUE
+
+logical_vector <- c(num1>num2,num1<num2,num2<num3,num3>num1)
+
+print(normal_logical)
+
+print(logical_vector)
