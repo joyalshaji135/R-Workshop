@@ -64,3 +64,23 @@ list_7
 
 # Accessing List Elements
 
+Access_list <- list(c("Joyal","Jeffin","Sam","Renjith"),matrix(c(1,2,3,4,5,6,7,8,9), nrow = 3, ncol = 3), list("BCA","MCA","MBA","B.COM"))
+
+names(Access_list) <- c("Student_Name","Student_Mark","Student_Course")
+
+Access_list["Student_Name"]
+                                        
+Access_list[1]
+
+Access_list[3]
+
+print(Access_list$Student_Mark)
+
+
+# Manipulation of list elements
+
+# Add,Delete or Update in List
+
+
+
+                                                               
