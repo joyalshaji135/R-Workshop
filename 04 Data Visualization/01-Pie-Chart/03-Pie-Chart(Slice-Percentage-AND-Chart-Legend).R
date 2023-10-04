@@ -4,7 +4,6 @@ rm(list = ls())
 
 # Slice Percentage & Chart Legend
 
-
 slices <- c(20, 65, 15, 50)
 
 names <- c("US","IND","BAN","AUS")
