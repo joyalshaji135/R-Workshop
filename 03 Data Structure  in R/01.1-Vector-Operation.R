@@ -146,7 +146,7 @@ out_of_order_index[c(5,3,2,6,7,1)]
 
 out_of_order_index[c(6,4,3,6,2,1)]
 
-# Name Vector Member 
+# h) Name Vector Member 
 
 name_vector <- c("Delote","Hp","Dell","Acer")
 
@@ -161,3 +161,7 @@ name_vector["2nd"]
 name_vector["3rd"]
 
 name_vector["End"]
+
+name_vector[c("Start","End","2nd")]
+
+#---------------------------*****---------------------------------#
