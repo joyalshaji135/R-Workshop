@@ -26,8 +26,6 @@ boxplot(mpg,main = "mpg boxplot")
 
 library(corrplot)
 
-# Purse 
-
 
 
 
