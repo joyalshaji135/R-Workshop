@@ -18,7 +18,8 @@
                                                        |_____ Matrix Operation
                                                        |                     |_____ Inverse
                                                        |                     |_____ Transpose
-                                                       |_____ Solving Linear Equations using Gaussian Elimination
+                                                       |_____ Solving Linear Equations using 
+                                                       |      Gaussian Elimination
                                                        |_____ Row Echelon Form
                                                        |_____ Matrix Approximation
                                                        |_____ Vector Operations
